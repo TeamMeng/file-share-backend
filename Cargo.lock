@@ -309,6 +309,7 @@ dependencies = [
  "iana-time-zone",
  "js-sys",
  "num-traits",
+ "serde",
  "wasm-bindgen",
  "windows-targets 0.52.6",
 ]
@@ -1731,6 +1732,7 @@ dependencies = [
  "axum-extra",
  "base64 0.22.1",
  "block-modes",
+ "chrono",
  "dotenv",
  "jsonwebtoken",
  "rand",

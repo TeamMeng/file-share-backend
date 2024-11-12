@@ -19,6 +19,7 @@ axum = { version = "0.7.7", features = [
 axum-extra = { version = "0.9.4", features = ["typed-header", "cookie"] }
 base64 = "0.22.1"
 block-modes = "0.9.1"
+chrono = { version = "0.4.38", features = ["serde"] }
 dotenv = "0.15.0"
 jsonwebtoken = "9.3.0"
 rand = "0.8.5"

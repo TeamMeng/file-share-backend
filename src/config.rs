@@ -1,8 +1,7 @@
 use anyhow::Result;
 use dotenv::var;
-use serde::{Deserialize, Serialize};
 
-#[derive(Debug, Serialize, Deserialize)]
+#[derive(Debug)]
 pub struct Config {
     pub db_url: String,
     pub jwt_secret_key: String,

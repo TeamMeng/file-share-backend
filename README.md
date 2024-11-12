@@ -8,6 +8,7 @@
 - axum: 一个轻量级且符合人体工程学的 Web 框架，用于在 Rust 中构建 API.
 - axum-extra: Axum 的附加实用程序，包括 cookie 支持.
 - base64: Base64 编码和解码库，常用于文件和加密操作.
+- chrono: Rust 的日期和时间库
 - dotenv: 用于管理开发中的环境变量.
 - jsonwebtoken: 用于对 JSON Web Tokens (JWT) 进行编码和解码以进行身份 ​​ 验证的库.
 - rand: 用于生成随机值的库，用于加密和令牌生成.
