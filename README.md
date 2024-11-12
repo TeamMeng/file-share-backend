@@ -21,6 +21,20 @@
 - uuid: 用于生成和解析通用唯一标识符（UUID）的库.
 - validator: Rust 中用于输入验证的验证框架.
 
+##
+
+1. 创建数据库 file_share
+
+```bash
+createdb file_share
+```
+
+2. 运行数据库迁移
+
+```bash
+sqlx migrate run
+```
+
 ## 环境设置
 
 ### 安装 Rust
